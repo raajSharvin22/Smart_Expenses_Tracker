@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome To Your Expenses</h1>
+
+    <a href="/add">Add New Expense</a>
+
+    <h2>Total Spent: {{ total_amount }} {{ currency }}</h2>
+
+    <ul>
+    {% for expense in expenses %}
+        <li>{{ expense.date }}: {{ expense.category }} - {{ currency }} {{ "%.2f"|format(expense.amount) }}</li>
+    {% else %}
+        <li>No expenses yet.</li>
+    {% endfor %}
+    </ul>
+
+    <a href="/logout">Logout</a>
+</body>
+</html>

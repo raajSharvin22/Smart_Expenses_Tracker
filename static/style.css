@@ -1,0 +1,110 @@
+body {
+    background-image: url('money-logo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    background-color: #0d0d0d;
+    color: #00ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+h1, h2 {
+    color: #00eaff;
+    text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
+}
+
+/* Center the form nicely with some padding */
+form {
+    max-width: 400px;
+    margin: 30px auto;
+    background-color: #111;
+    padding: 30px 40px; /* a bit more horizontal padding */
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffff;
+    box-sizing: border-box; /* ensure padding included in width */
+    text-align: left; /* Align form contents to left for better UX */
+}
+
+/* Make inputs full width but with some margin */
+input, select {
+    width: 100%;
+    padding: 12px 15px; /* more padding for comfort */
+    margin: 12px 0; /* uniform margin top and bottom */
+    border: 1px solid #00ffff;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    color: #00ffff;
+    box-sizing: border-box;
+    font-size: 1rem;
+    display: block; /* ensure inputs take full line */
+}
+
+/* Placeholder style */
+input::placeholder {
+    color: #00ffff;
+    opacity: 0.7;
+}
+
+/* Buttons style */
+input[type="submit"], button {
+    background-color: transparent;
+    color: #00ffff;
+    font-weight: bold;
+    border: 2px solid #00ffff;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 1.1rem;
+    margin-top: 20px; /* space above buttons */
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #00ffff;
+    color: #000;
+    box-shadow: 0 0 20px #00ffff;
+}
+
+/* Links style */
+a {
+    color: #00ffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #000;
+    background-color: #00ffff;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+/* Expense list styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #111;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+/* Paragraph under forms (like register/login prompt) */
+p {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #00ffff;
+}
