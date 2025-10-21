@@ -1,2 +1,2 @@
 # Smart_Expenses_Tracker
-Smart Expense Tracker is a Python-based web application built using the Flask framework. It allows users to register, log in, and manage their daily expenses easily. This project was developed to help users stay on top of their spending habits in a simple, secure, and interactive way.
+A Python-based web application built with the Flask framework to help users track and manage daily expenses. It features secure user registration and login, intuitive forms to add, edit, and delete expenses, and categorized expense views for better organization. The system uses SQLite with SQLAlchemy ORM for secure data storage, while HTML, CSS, and Jinja2 were used to design responsive, user-friendly interfaces.
